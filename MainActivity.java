@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
            String username = params[0];
            String password = params[1];
            String result = "";
-           String s_url = "http://tyz.s1.natapp.cc/tyz_back/singin?username="+username+"&password="+password;
+           String s_url = "http://tyz.s1.natapp.cc/tyz_back/signin?username="+username+"&password="+password;
            try {
                URL url = new URL(s_url);
                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
